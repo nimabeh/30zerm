@@ -5,7 +5,7 @@ description = "پروژه ادبیات الکترونیک جنیش قیچی"
 direction = "RTL"
 
 paginate = 5
-theme = "PaperMod"
+theme = "hugo-PaperMod"
 
 
 enableRobotsTXT= true
