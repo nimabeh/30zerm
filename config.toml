@@ -1,0 +1,123 @@
+languageCode = "fa"
+title = "جنبش قیچی"
+description = "پروژه ادبیات الکترونیک جنیش قیچی"
+direction = "RTL"
+
+paginate = 5
+theme = "PaperMod"
+
+
+enableRobotsTXT= true
+buildDrafts= false
+buildFuture= false
+buildExpired= false
+
+googleAnalytics= "UA-123-45"
+
+[minify]
+    disableXML= true
+    minifyOutput= true
+
+[params]
+
+    keywords= ["ادبیات", "قیچی", "جنبش", "کتابخانه"]
+    author= "Scissors Movement"
+    # author= ["Me", "You"] # multiple authors
+    images= ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat= "January 2, 2006"
+    defaultTheme= "auto"
+    disableThemeToggle= false
+
+    ShowReadingTime= true
+    ShowShareButtons= true
+    ShowPostNavLinks= true
+    ShowBreadCrumbs= true
+    ShowCodeCopyButtons= false
+    disableSpecial1stPost= false
+    disableScrollToTop= false
+    comments= false
+    hidemeta= false
+    hideSummary= false
+    showtoc= false
+    tocopen= false
+
+   [params.assets]
+        # disableHLJS= true # to disable highlight.js
+        # disableFingerprinting= true
+        favicon= "<link / abs url>"
+        favicon16x16= "<link / abs url>"
+        favicon32x32= "<link / abs url>"
+        apple_touch_icon= "<link / abs url>"
+        safari_pinned_tab= "<link / abs url>"
+
+  [params.homeInfoParams]
+  Title = "پروژه ادبیات الکترونیک جنبش قیچی"
+  Content = "ماشینی به همدستی دو نفر یا بیشتر"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/30zermbot"
+
+  [[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/30zerm"
+
+  [[params.socialIcons]]
+  name = "facebook"
+  url = "https://facebook.com/30zerm"
+
+  [[params.socialIcons]]
+  name = "email"
+  url = "scissors.movement@gmail.com"
+
+[params.analytics.google]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.bing]
+SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier= "about"
+          name= "درباره"
+          url= "/about/"
+          weight= 10
+[[menu.main]]
+identifier= "book"
+          name= "اتفاق جماهیر قیچی"
+          url= "/book/"
+          weight= 20
+[[menu.main]]
+identifier= "search"
+          name= "جستجو"
+          url= "/search/"
+          weight= 30
+
+# markup=
+#     highlight=
+#         # anchorLineNos= true
+#         codeFences= true
+#         guessSyntax= true
+#         lineNos= true
+#         style= monokai
