@@ -1,3 +1,4 @@
+baseURL = "https://three0zerm.onrender.com/"
 languageCode = "fa"
 title = "جنبش قیچی"
 description = "پروژه ادبیات الکترونیک جنیش قیچی"
@@ -113,11 +114,3 @@ identifier= "search"
           name= "جستجو"
           url= "/search/"
           weight= 30
-
-# markup=
-#     highlight=
-#         # anchorLineNos= true
-#         codeFences= true
-#         guessSyntax= true
-#         lineNos= true
-#         style= monokai
